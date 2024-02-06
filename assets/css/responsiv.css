@@ -1,0 +1,134 @@
+@media(max-width:1024px){
+    .search_bar input{
+        display: none;
+    }
+    .search_bar a{
+        float: right;
+    }
+    .nav{
+        flex-basis: 70%
+    }
+    .search_bar{
+        flex-basis: 10%;
+    }
+   
+    
+
+}
+@media(max-width:991px){
+    .menu_bar{
+        height: 70px;
+        
+    }
+    .logo h1 a,.search_bar a{
+        line-height: 70px;
+    }
+    .heaser_section {
+        position: relative;
+    }
+    .search_bar #serce{
+        float: left;
+    }
+    .logo{
+        left: 10%;
+        position: absolute;
+    }
+    .menu_bar{
+        padding: inherit;
+    }
+    .nav{ 
+    flex-basis: 100%;
+    
+}
+    .nav ul{
+        right: 100%;
+        transition: .5s;
+    }
+    
+    
+    .menu_bar{
+        flex-direction: column;
+    }
+    .nav ul{
+        position: absolute;
+        top: 10vh;
+        width: 50%;
+        background-color: aqua;
+        height: 50vh;
+        border-radius: 0 0 0 30%;
+}
+   
+    .nav ul li{
+    float: none;
+        width: auto;
+    }
+    .nav ul li a{
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .search_bar{
+        top: 0px;
+        right: 10%;
+        position: absolute;
+    }
+    .three_tab {
+        display: block;
+    }
+    .search_bar a{
+        font-size: 26px;
+    }
+    /* ABOUT SECTIONS */
+    .about{
+    flex-basis:100%;
+}
+.about_imag img{
+    margin-top: 50px;
+}
+ /*OUR SERVICES================*/
+    .web_desigen{
+        flex-basis: 50%;
+    }
+     /*OUR SERVICES================*/
+    .web_desigen{
+        flex-basis: 100%;
+    }
+    .contact {
+    flex-basis: 100%;
+}
+.contact_text {
+    width: 80%;
+    float: left;
+    padding-left: 30px;
+}
+.contact_section{
+    flex-wrap: wrap;
+}
+
+.futter_top {
+    flex-direction: column;
+}
+/* CONTACT SECTION */
+.full_freem {
+    margin-top: 50px;
+    padding: 60px 10%;
+    border-radius: 10px;
+}
+/* BOTTOM */
+.subscribe-us{
+ width: 80%;
+}
+.bottom.courses{
+ padding-top: 30px;
+}
+
+}
+@media(max-width:767px){
+     /*OUR SERVICES================*/
+  
+
+
+
+}
+@media(max-width:424px){
+
+}
